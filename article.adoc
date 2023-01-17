@@ -38,10 +38,6 @@ KubeVirt предоставляет два типа машин: +
 ==== Структура:
 KubeVirt состоит из набора сервисов:
 
-- Cluster | (virt-controller)
-- Kubernetes | (VMI CRD)
-- DaemonSet | (virt-handler) (vm-pod M)
-
 ===== virt-api-server
 Сервер HTTP API, который служит точкой входа для всех потоков, связанных с виртуализацией.
 
